@@ -2,5 +2,5 @@
 
 ```
 cd /var/www/saigonstar.tk/public_html
-cd /etc/apache2/sites-available
+cd /etc/apache2/sites-available/saigonstar.tk.conf
 ```
