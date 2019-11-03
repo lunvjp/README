@@ -78,3 +78,21 @@ https://stackoverflow.com/questions/9589814/how-do-i-force-git-pull-to-overwrite
 
 FILE SYSTEM.
 - `https://laravel.com/docs/5.8/filesystem#the-local-driver`
+
+## CACHE
+```
+php artisan key:generate
+php artisan cache:clear
+php artisan route:cache 
+php artisan config:clear 
+php artisan view:clear
+sudo composer dump-autoload
+php artisan clear-compiled 
+composer dump-autoload
+php artisan optimize
+```
+
+## MOD
+```
+sudo chmod -R 777 ./storage ./bootstrap
+```
