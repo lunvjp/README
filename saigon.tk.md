@@ -4,3 +4,7 @@
 cd /var/www/saigonstar.tk/public_html
 cd /etc/apache2/sites-available/saigonstar.tk.conf
 ```
+
+```
+sudo mkdir public_html
+```
