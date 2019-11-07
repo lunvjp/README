@@ -29,3 +29,8 @@ sudo setfacl -R -m u:YOUR_USERNAME:rwx /var/www/html
     CustomLog ${APACHE_LOG_DIR}/payment.saigonstar.tk-access.log combined
 </VirtualHost>
 ```
+
+* Create New FTP Account
+```
+sudo usermod -d /var/www/hoctaptaynguyen.tk/public_html/wordpress jack
+```
