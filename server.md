@@ -34,3 +34,4 @@ sudo setfacl -R -m u:YOUR_USERNAME:rwx /var/www/html
 ```
 sudo usermod -d /var/www/hoctaptaynguyen.tk/public_html/wordpress jack
 ```
+> https://www.cyberciti.biz/faq/create-a-user-account-on-ubuntu-linux/
