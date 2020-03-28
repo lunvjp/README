@@ -8,6 +8,8 @@ sudo a2dissite example.com
 sudo service apache2 restart
 ```
 
+adduser with sudo permission
+- https://gist.github.com/ngtrieuvi92/952678665ecf608e96c9fb2829659609
 ```
 sudo usermod -a -G YOUR_USERNAME www-data
 sudo setfacl -R -m u:YOUR_USERNAME:rwx /var/www/html
